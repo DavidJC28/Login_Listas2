@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 
             if (correo.equals("correo@correo.com") && contraseña.equals("123")) {
                 if (recordar) {
-                    textCorrecto.setText("Usuario y contraseña correctos ycorr guardados");
+                    textCorrecto.setText("Usuario y contraseña correctos y guardados");
                 } else {
                     textCorrecto.setText("Usuario y contraseña correctos");
                 }
